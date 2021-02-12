@@ -146,6 +146,7 @@ namespace OOp_4
             Console.WriteLine($"Площа: {Triangle.Area(AB, BC, CA)}");
             Console.WriteLine($"Описаний: {Triangle.Сircumscribed(AB, BC, CA)}");
             Console.WriteLine($"Вписаний: {Triangle.Inscribed(AB, BC, CA)}");
+            Console.WriteLine($"Цкй рядок додано в IDE");
             Console.ReadKey();
         }
     }
