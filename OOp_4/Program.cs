@@ -142,11 +142,10 @@ namespace OOp_4
             BC.CreateSide(B, C);
             CA.CreateSide(C, A);
             Triangle.CheckTriangle(AB, BC, CA);
-            Console.WriteLine(Triangle.Perimeter(AB, BC, CA));
-            Console.WriteLine(Triangle.Area(AB, BC, CA));
-            Console.WriteLine(Triangle.Сircumscribed(AB, BC, CA));
-            Console.WriteLine(Triangle.Inscribed(AB, BC, CA));
-            Console.WriteLine("Зміна1 в проект");
+            Console.WriteLine($"Периметр: {Triangle.Perimeter(AB, BC, CA)}");
+            Console.WriteLine($"Площа: {Triangle.Area(AB, BC, CA)}");
+            Console.WriteLine($"Описаний: {Triangle.Сircumscribed(AB, BC, CA)}");
+            Console.WriteLine($"Вписаний: {Triangle.Inscribed(AB, BC, CA)}");
             Console.ReadKey();
         }
     }
