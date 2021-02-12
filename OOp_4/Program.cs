@@ -111,7 +111,7 @@ namespace OOp_4
         }
         public static void CheckTriangle(Side ab, Side bc, Side ca)
         {
-            if (ab.GetSide + bc.GetSide > ca.GetSide && ab.GetSide + ca.GetSide > bc.GetSide && bc.GetSide + ca.GetSide > ab.GetSide)
+            if ((ab.GetSide + bc.GetSide > ca.GetSide) && (ab.GetSide + ca.GetSide > bc.GetSide) && (bc.GetSide + ca.GetSide > ab.GetSide))
             {
                 Console.WriteLine("Все добре, трикутник існує");
             }
@@ -146,6 +146,7 @@ namespace OOp_4
             Console.WriteLine(Triangle.Area(AB, BC, CA));
             Console.WriteLine(Triangle.Сircumscribed(AB, BC, CA));
             Console.WriteLine(Triangle.Inscribed(AB, BC, CA));
+            Console.WriteLine("Зміна1 в проект");
             Console.ReadKey();
         }
     }
