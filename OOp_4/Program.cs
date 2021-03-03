@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OOp_4
 {
-    //browser
+    //From IDE
     class Dot
     {
-        //From IDE
+
         private double _x;
         private double _y;
         public Dot(double xValue = 0, double yValue = 0)
