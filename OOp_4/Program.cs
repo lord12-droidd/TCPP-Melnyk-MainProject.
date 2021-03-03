@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOp_4
 {
+    //browser
     class Dot
     {
         private double _x;
