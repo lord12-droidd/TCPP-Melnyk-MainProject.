@@ -8,6 +8,7 @@ namespace OOp_4
 {
     class Dot
     {
+        //From IDE
         private double _x;
         private double _y;
         public Dot(double xValue = 0, double yValue = 0)
